@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    background-color: black;                                  /* <------------- Main background color */  
+    font-family: 'Darker Grotesque', sans-serif;                /* <------------- Font for body */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 150px;
+    background-color: black;
+}
+
+#back-to-top {                            /* <------------- Sticky scrolling "back to top" button css */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #20CBE8; 
+    font-size: 2em;
+    padding: 10px 20px; 
+    display: none;
+    border-radius: 50px;
+    z-index: 9999;
+    border: none;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  #back-to-top:hover {
+    background-color: #9AC0CD;
+  }
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: 'Russo One', sans-serif;                       /* <------------- Font for NAV bar */
+    align-items: center;
+    height: 80px;
+}
+
+.navbar ul li {
+    margin-right: 50px;
+    align-items: center; 
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #20CBE8;                                           /* <------------- Blue color text match the app */
+    font-size: 30px;
+    transition: color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul li:last-child a {
+    background-color: #20CBE8;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-right: 0; 
+}
+
+.navbar ul li a:hover {
+    color: #e0e0e0; 
+    text-shadow: 2px 2px 10px rgba(150, 150, 220, 0.5); 
+}
+
+.navbar ul li:last-child a:hover {
+    background-color: rgb(143, 34, 233);                      /* <------------- hover Purple color match the app */
+    color: #fff;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.logo {
+    width: 180px;                                               /* <------------- LOGO */
+    height: auto;
+}
+
+/* ---------------------------------------------------  BODY  ---------------------------------------------------- */
+
+.app-screen-image {                                             /* <------------- Body Image */
+    width: 100%;
+    height: auto;
+}
+
+/* ---------------------------------------------------  BODY1  ---------------------------------------------------- */
+
+.new-nft-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------------------------------------  h1  ---------------------------------------------------- */
+
+.signing-up-img {
+    width: 37%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 150px;
+}
+
+.signing-up-text {
+    width: 50%; 
+    margin: 0; 
+}
+
+.signing-up-text h1 {                                      /* <------------- Darker Grotesque in 32px for body */             
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    font-size: 32px;
+    margin-right: 150px;
+}
+
+/* ---------------------------------------------------  h2  ---------------------------------------------------- */
+
+.room-type-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 100px 0;
+}
+
+.select-room-img {
+    width: 37%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 150px;
+}
+
+.select-room-text {
+    width: 50%; 
+}
+
+.select-room-text h2 {                                       /* <------------- Darker Grotesque in 32px for body */
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    font-size: 32px;
+}
+
+/* ---------------------------------------------------  h3  ---------------------------------------------------- */
+
+/* ---------------------------------------------------  h4  ---------------------------------------------------- */
+
+.popular-nft-section {
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 20px 0; 
+    text-align: center; 
+}
+
+.popular-nft-img {
+    width: 85%; 
+    height: auto;
+    margin: 0 auto; 
+    display: block; 
+}
+
+.popular-nft-text {
+    /* none */
+}
+
+.popular-nft-text h4 {                                    /* <------------- Darker Grotesque in 53px for body title */
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #20CBE8;                                     /* <------------- Body title with blue color match the app */
+    font-size: 53px;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out, color 0.3s;
+}
+
+.popular-nft-text h4:hover {
+    transform: scale(1.05); 
+    color: #e0e0e0; 
+}
+
+/* ---------------------------------------------------  h5  ---------------------------------------------------- */
+
+.top-rooms-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 20px 0; 
+}
+
+.top-rooms-img {
+    width: 50%; 
+    height: auto;
+    margin-left: 150px;
+    margin-top: 150px
+}
+
+.top-rooms-text {
+    width: 50%; 
+}
+
+.top-rooms-text h5 {                         /* <------------- Darker Grotesque in 63px create visual hierarchy*/
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    font-size: 63px;
+    margin-left: 150px;
+    margin-right:200px;
+}
+
+/* ---------------------------------------------------  h6  ---------------------------------------------------- */
+
+.share-room-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.share-room-img {
+    width: 57%; 
+    height: auto;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.share-room-text {
+    width: 50%; 
+}
+
+.share-room-text h6 {
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    font-size: 32px; 
+    margin-right: 200px;
+}
+.share-room-text h7 {
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #20CBE8; 
+    font-size: 24px; 
+    margin-top: 10px; 
+}
+
+.download-button {
+    display: inline-block;
+    background-color: #20CBE8; 
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 32px; 
+    font-family: 'Russo One', sans-serif;
+    margin-top: 20px; 
+    margin-left: 100px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.download-button:hover {
+    background-color: rgb(143, 34, 233); 
+    color: #fff;
+}
