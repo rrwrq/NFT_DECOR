@@ -138,12 +138,12 @@ header {
 .select-room-img {
     width: 37%; 
     height: auto;
-    margin-right: 20px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .select-room-text {
     width: 50%; 
+    margin-right: 100px
 }
 
 .select-room-text h2 {                                       /* <------------- Darker Grotesque in 32px for body */
@@ -153,6 +153,20 @@ header {
 }
 
 /* ---------------------------------------------------  h3  ---------------------------------------------------- */
+
+/* .nft-items-section {
+    color: white;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin: 20px 0; 
+    text-align: center; 
+} */
+
+.nft-items-img {
+    width: 85%; 
+    height: auto;
+    margin: 0 auto; 
+    display: block; 
+}
 
 /* ---------------------------------------------------  h4  ---------------------------------------------------- */
 
